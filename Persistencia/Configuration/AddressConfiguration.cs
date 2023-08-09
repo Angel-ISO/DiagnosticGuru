@@ -26,13 +26,15 @@ namespace Persistencia.Configuration;
             builder.Property(p => p.TypeWay)
                 .HasColumnName("TypeWay")
                 .HasColumnType("varchar")
+                .HasMaxLength(200)
                 .IsRequired();
 
      
             builder.Property(p => p.NumberWay)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
                 .HasColumnName("NumberWay")
-                .HasColumnType("int")
+                .HasColumnType("varchar")
+                .HasMaxLength(200)
                 .IsRequired();
 
                   builder.Property(p => p.QuadrantPrefix)
@@ -43,7 +45,8 @@ namespace Persistencia.Configuration;
 
                   builder.Property(p => p.NumberVenereableWay)
                 .HasColumnName("NameVenereableWay")
-                .HasColumnType("int")
+                .HasColumnType("varchar")
+                .HasMaxLength(200)
                 .IsRequired();
 
                   builder.Property(p => p.NumberPlate)

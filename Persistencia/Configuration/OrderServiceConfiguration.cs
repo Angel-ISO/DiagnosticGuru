@@ -8,7 +8,7 @@ namespace Persistencia.Configuration;
     {
     public void Configure(EntityTypeBuilder<OrderService> builder)
     {
-        builder.ToTable("rrderservices");
+        builder.ToTable("orderservices");
 
             builder.Property(p => p.Id)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
@@ -25,9 +25,6 @@ namespace Persistencia.Configuration;
                 .WithMany(p => p.OrderServices)
                 .HasForeignKey(p => p.Id_City);
 
-                  builder.HasOne(p => p.Vehicle)
-                .WithMany(p => p.OrderServices)
-                .HasForeignKey(p => p.Id_Vehicle);
 
                   builder.HasOne(p => p.State)
                 .WithMany(p => p.OrderServices)

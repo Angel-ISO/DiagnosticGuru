@@ -1,13 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace Dominio;
-public class Person
+public class Person : BaseEntityA
 {
-//llave principal no autoincremental
-  [Key]
-  public string ? Id_Person {get; set;}
-     public ICollection<Vehicle> ? Vehicles { get; set; }
-
+  public ICollection<Vehicle> ? Vehicles { get; set; }
   public ICollection<Address> ?Addresses { get; set; }
   public ICollection<Employe> ?Employes { get; set; }
 

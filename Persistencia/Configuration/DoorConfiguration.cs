@@ -13,8 +13,7 @@ namespace Persistencia.Configuration;
             builder.Property(p => p.Id)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
                 .HasColumnName("Id_Door")
-                .HasColumnType("string")
-                .HasMaxLength(200)
+                .HasColumnType("int")
                 .IsRequired();
 
             builder.Property(p => p.Fowardleft)

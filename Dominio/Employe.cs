@@ -2,15 +2,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Dominio;
 
-public class Employe
+public class Employe : BaseEntityA
 {
-    //llave no autoincremental
-    [Key]
-    public string ? Cc_Employe {get; set;}
+    
     public DiagnosticMechanic ? DiagnosticMechanic {get; set;}
     public RolEmploye ? RolEmploye {get; set;}
     public string ? Description {get; set;}
-    public string ?Id_PE {get; set;}
+    public int ?Id_PE {get; set;}
     public Person ? Person {get; set;}
     public int Id_Speciality {get; set;}
     public Speciality ? Speciality {get; set;}

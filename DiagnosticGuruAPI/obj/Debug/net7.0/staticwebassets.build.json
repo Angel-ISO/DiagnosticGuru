@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UTVTMb1Wh0GBCkGUV+fbAJpp5NX4ESJlPot4t69tOno=",
+  "Source": "DiagnosticGuruAPI",
+  "BasePath": "_content/DiagnosticGuruAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

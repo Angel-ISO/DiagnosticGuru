@@ -13,8 +13,7 @@ namespace Persistencia.Configuration;
             builder.Property(p => p.Id)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
                 .HasColumnName("Id_Brand")
-                .HasColumnType("string")
-                .HasMaxLength(200)
+                .HasColumnType("int")
                 .IsRequired();
 
             
@@ -22,8 +21,7 @@ namespace Persistencia.Configuration;
         builder.Property(p => p.Description)
                 .HasColumnName("Namebrand")
                 .HasColumnType("varchar")
-                .HasMaxLength(200)
-                .IsRequired();
+                .HasMaxLength(200);
 
     }
 }

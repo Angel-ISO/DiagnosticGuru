@@ -8,13 +8,12 @@ namespace Persistencia.Configuration;
     {
     public void Configure(EntityTypeBuilder<Contact> builder)
     {
-        builder.ToTable("contacts");
+        builder.ToTable("contactconfiguration");
 
             builder.Property(p => p.Id)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
-                .HasColumnName("Cc_Person")
-                .HasColumnType("string")
-                .HasMaxLength(200)
+                .HasColumnName("id_contconfig")
+                .HasColumnType("int")
                 .IsRequired();
 
            

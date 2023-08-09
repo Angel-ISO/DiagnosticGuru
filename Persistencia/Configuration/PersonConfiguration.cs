@@ -10,11 +10,10 @@ namespace Persistencia.Configuration;
     {
         builder.ToTable("Persons");
 
-            builder.Property(p => p.Id_Person)
+            builder.Property(p => p.Id)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
                 .HasColumnName("Cc_Person")
-                .HasColumnType("string")
-                .HasMaxLength(200)
+                .HasColumnType("int")
                 .IsRequired();
 
             builder.Property(p => p.NamePerson)

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj": {}
+    "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj": {}
   },
   "projects": {
-    "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj": {
+    "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\obj\\",
+        "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj",
+        "packagesPath": "/home/apolm01-007/.nuget/packages/",
+        "outputPath": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -52,7 +52,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             }
           },
           "imports": [
@@ -71,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj": {
+    "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\obj\\",
+        "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj",
+        "packagesPath": "/home/apolm01-007/.nuget/packages/",
+        "outputPath": "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -97,8 +97,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj"
+              "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj": {
+                "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj"
               }
             }
           }
@@ -119,7 +119,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -142,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
         }
       }
     }

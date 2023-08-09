@@ -10,10 +10,10 @@ namespace Persistencia.Configuration;
     {
         builder.ToTable("employe");
 
-            builder.Property(p => p.Cc_Employe)
+            builder.Property(p => p.Id)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
-                .HasColumnName("Cc_Employe")
-                .HasColumnType("string")
+                .HasColumnName("id_employe")
+                .HasColumnType("int")
                 .HasMaxLength(200)
                 .IsRequired();
 
@@ -30,11 +30,11 @@ namespace Persistencia.Configuration;
 
                   builder.HasOne(p => p.RolEmploye)
                 .WithMany(p => p.Employes)
-                .HasForeignKey(p => p.Cc_Employe);
+                .HasForeignKey(p => p.Id);
 
                   builder.HasOne(p => p.DiagnosticMechanic)
                 .WithMany(p => p.Employes)
-                .HasForeignKey(p => p.Cc_Employe);
+                .HasForeignKey(p => p.Id);
 
                 
                   builder.HasOne(p => p.Speciality)

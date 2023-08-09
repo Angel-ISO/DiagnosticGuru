@@ -1,6 +1,8 @@
 namespace Dominio;
 public class Inspeccion : BaseEntityA
 {
+
+    public OrderService ? OrderService { get; set; }
     public ICollection<Door> ?Doors { get; set; }
     public ICollection<Cabine> ?Cabines { get; set; }
 

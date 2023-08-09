@@ -12,9 +12,8 @@ namespace Persistencia.Configuration;
 
             builder.Property(p => p.Id)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
-                .HasColumnName("Id_Fails")
-                .HasColumnType("string")
-                .HasMaxLength(200)
+                .HasColumnName("Id_cabine")
+                .HasColumnType("int")
                 .IsRequired();
 
               

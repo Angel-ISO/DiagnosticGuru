@@ -13,8 +13,7 @@ namespace Persistencia.Configuration;
             builder.Property(p => p.Id_Rol)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
                 .HasColumnName("Id_Rol")
-                .HasColumnType("string")
-                .HasMaxLength(200)
+                .HasColumnType("int")
                 .IsRequired();
 
             

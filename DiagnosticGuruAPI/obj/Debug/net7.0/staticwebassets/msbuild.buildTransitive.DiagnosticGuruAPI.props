@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/DiagnosticGuruAPI.props" />
+</Project>
