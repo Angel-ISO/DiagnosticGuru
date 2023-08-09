@@ -7,7 +7,7 @@ public ICollection<OrderService> ? OrderServices { get; set; }
 
 
 public string ?NameCity { get; set; }
-public int ?IdRegion { get; set; }
+public int ?Id_Region { get; set; }
 public Region ? Region { get; set; }
 
 }
