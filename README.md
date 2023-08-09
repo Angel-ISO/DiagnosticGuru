@@ -8,6 +8,21 @@ este es el primer componente que alamacena mi proyecto de  diagnostico y revisio
 
 este proyecto tiene como finalidad poder poner a prueba todo lo visto durante las clases y sus respectivos componentes y a su vez convertirse en una evidencia de desarrollo de aprendisaje personal
 
+# back-end para citas con c#
+iniciar migraciones
+
+```
+dotnet ef migrations add InitialCreate --project ./Persistencia/ --startup-project ./DiagnosticGuruAPI/ --output-dir ./Migrations
+```
+
+
+publicacion en base de datos y actualizaciones posteriores
+```
+dotnet ef database update --project ./Persistencia/ --startup-project ./DiagnosticGuruAPI/
+```
+
+
+
 ## Authors
 
 - [@Angel-ISO](https://www.github.com/Angel-ISO)
