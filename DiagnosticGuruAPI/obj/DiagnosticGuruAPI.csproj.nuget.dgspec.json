@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/apolm01-007/Documents/DiagnosticGuru/DiagnosticGuruAPI/DiagnosticGuruAPI.csproj": {}
+    "c:\\Users\\pc\\Documents\\DiagnosticGuru\\DiagnosticGuruAPI\\DiagnosticGuruAPI.csproj": {}
   },
   "projects": {
-    "/home/apolm01-007/Documents/DiagnosticGuru/Aplicacion/Aplicacion.csproj": {
+    "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-007/Documents/DiagnosticGuru/Aplicacion/Aplicacion.csproj",
+        "projectUniqueName": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Aplicacion/Aplicacion.csproj",
-        "packagesPath": "/home/apolm01-007/.nuget/packages/",
-        "outputPath": "/home/apolm01-007/Documents/DiagnosticGuru/Aplicacion/obj/",
+        "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj": {
-                "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj"
+              "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj"
               },
-              "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj": {
-                "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj"
+              "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -60,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/apolm01-007/Documents/DiagnosticGuru/DiagnosticGuruAPI/DiagnosticGuruAPI.csproj": {
+    "c:\\Users\\pc\\Documents\\DiagnosticGuru\\DiagnosticGuruAPI\\DiagnosticGuruAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-007/Documents/DiagnosticGuru/DiagnosticGuruAPI/DiagnosticGuruAPI.csproj",
+        "projectUniqueName": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\DiagnosticGuruAPI\\DiagnosticGuruAPI.csproj",
         "projectName": "DiagnosticGuruAPI",
-        "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/DiagnosticGuruAPI/DiagnosticGuruAPI.csproj",
-        "packagesPath": "/home/apolm01-007/.nuget/packages/",
-        "outputPath": "/home/apolm01-007/Documents/DiagnosticGuru/DiagnosticGuruAPI/obj/",
+        "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\DiagnosticGuruAPI\\DiagnosticGuruAPI.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\DiagnosticGuruAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -86,8 +86,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/apolm01-007/Documents/DiagnosticGuru/Aplicacion/Aplicacion.csproj": {
-                "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Aplicacion/Aplicacion.csproj"
+              "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -102,6 +102,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[7.0.9, )"
@@ -109,6 +113,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -144,21 +152,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj": {
+    "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj",
-        "packagesPath": "/home/apolm01-007/.nuget/packages/",
-        "outputPath": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/obj/",
+        "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -215,21 +223,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj": {
+    "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj",
+        "projectUniqueName": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/Persistencia.csproj",
-        "packagesPath": "/home/apolm01-007/.nuget/packages/",
-        "outputPath": "/home/apolm01-007/Documents/DiagnosticGuru/Persistencia/obj/",
+        "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/apolm01-007/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -241,8 +249,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj": {
-                "projectPath": "/home/apolm01-007/Documents/DiagnosticGuru/Dominio/Dominio.csproj"
+              "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\pc\\Documents\\DiagnosticGuru\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -286,7 +294,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

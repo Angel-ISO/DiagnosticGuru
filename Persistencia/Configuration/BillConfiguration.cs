@@ -19,21 +19,18 @@ namespace Persistencia.Configuration;
 
                  builder.Property(p => p.TotalCostParts)
                 .HasColumnName("TotalCostParts")
-                .HasColumnType("varchar")
-                .HasMaxLength(200)
+                .HasColumnType("int")
                 .IsRequired();
                 
                  builder.Property(p => p.TotalService)
                 .HasColumnName("TotalService")
-                .HasColumnType("varchar")
-                .HasMaxLength(200)
+                .HasColumnType("int")
                 .IsRequired();
 
 
                  builder.Property(p => p.Total)
                 .HasColumnName("total")
-                .HasColumnType("varchar")
-                .HasMaxLength(200)
+                .HasColumnType("int")
                 .IsRequired();
 
 
