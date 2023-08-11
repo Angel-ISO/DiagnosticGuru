@@ -10,7 +10,7 @@ este proyecto tiene como finalidad poder poner a prueba todo lo visto durante la
 
 # Acompañamiento ejecucion
 
-##empezaremos po cambiar las credenciales configuradas por las porpias, para seguidamente iniciar las migraciones debido a que la api no esta alojada en una nube,  por tal motivo debemos hacer uso de las migraciones que nos provee el entity framework con proposito de que nuestra api pueda testearse.
+### empezaremos por cambiar las credenciales configuradas por las propias, para seguidamente iniciar las migraciones debido a que la api no esta alojada en una nube,  por tal motivo debemos hacer uso de las migraciones que nos provee el entity framework con proposito de que nuestra api pueda testearse de manera local, este proceso es mu importante
 
 ### ejemplo de reemplazo de credenciales.
 
