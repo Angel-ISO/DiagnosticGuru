@@ -8,13 +8,13 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistencia;
 
-namespace Aplicacion.Paises
+namespace Aplicacion.Countries
 {
-    public class Consultas 
+    public class Consultation 
     {
-        public class ListaCountry : IRequest<List<Country>>{}
+        public class ListCountry : IRequest<List<Country>>{}
 
-        public class Manejador : IRequestHandler<ListaCountry, List<Country>>
+        public class Manejador : IRequestHandler<ListCountry, List<Country>>
         {
             private readonly DiagnosticGuruContext contex;
 
@@ -22,10 +22,10 @@ namespace Aplicacion.Paises
                 contex = _contex;
             }
 
-            public async Task<List<Country>> Handle(ListaCountry request, CancellationToken cancellationToken)
+            public async Task<List<Country>> Handle(ListCountry request, CancellationToken cancellationToken)
             {
-                var paises = await contex.Countries.ToListAsync();
-                return paises;
+                var countries = await contex.Countries.ToListAsync();
+                return countries;
             }
         }
 
