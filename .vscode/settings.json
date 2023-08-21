@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "base web api"
+        "base web api",
+        "estructura y patron repositorio"
     ]
 }
