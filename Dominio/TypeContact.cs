@@ -1,10 +1,8 @@
 using System.ComponentModel.DataAnnotations;
 
 namespace Dominio;
-public class TypeContact 
+public class TypeContact : BaseEntityA
 {
-    [Key]
-    public int ? Id_TypeContact {get; set;}
     public ICollection<Contact> ?Contacts { get; set; }
 
     public string ? Email {get; set;}

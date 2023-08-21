@@ -1,6 +1,6 @@
-using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistencia;
+using DiagnosticGuruAPI.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +19,7 @@ builder.Services.AddDbContext<DiagnosticGuruContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.ConfigureCors();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,6 +28,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();
 

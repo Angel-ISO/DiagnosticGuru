@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DinoApi.Extensions;
+namespace DiagnosticGuruAPI.Extensions;
 
 public static class ApplicationServiceExtension
 {

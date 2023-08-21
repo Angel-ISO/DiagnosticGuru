@@ -10,7 +10,7 @@ namespace Persistencia.Configuration;
     {
         builder.ToTable("rols");
 
-            builder.Property(p => p.Id_Rol)
+            builder.Property(p => p.Id)
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
                 .HasColumnName("Id_Rol")
                 .HasColumnType("int")
